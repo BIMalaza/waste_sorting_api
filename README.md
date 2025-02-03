@@ -1,0 +1,2 @@
+# waste_sorting_api
+Graduate_Java_Developer_Assessment
