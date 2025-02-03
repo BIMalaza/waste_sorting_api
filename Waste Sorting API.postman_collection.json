@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "5de75113-f36b-43ab-89f7-5eb9ad64d5c9",
+		"name": "Waste Sorting API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36498938"
+	},
+	"item": [
+		{
+			"name": "Get All Waste Categories",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/waste-categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"waste-categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add Waste Category",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"name\": \"Paper\",\n    \"disposalGuideline\": \"Recycle at designated bins\"\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/waste-categories",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"waste-categories"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
