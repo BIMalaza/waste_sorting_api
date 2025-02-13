@@ -1,5 +1,5 @@
 # bonganimalaza.waste_sorting_api
-readme_content = """\
+
 # Waste Sorting API
 
 ## 📌 Project Overview
