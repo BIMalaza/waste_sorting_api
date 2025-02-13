@@ -1,0 +1,6 @@
+com\enviro\assessment\grad001\bonganimalaza\waste_sorting_api\exceptions\GlobalExceptionHandler.class
+com\enviro\assessment\grad001\bonganimalaza\waste_sorting_api\repositories\WasteCategoryRepository.class
+com\enviro\assessment\grad001\bonganimalaza\waste_sorting_api\WasteSortingApiApplication.class
+com\enviro\assessment\grad001\bonganimalaza\waste_sorting_api\controllers\WasteCategoryController.class
+com\enviro\assessment\grad001\bonganimalaza\waste_sorting_api\services\WasteCategoryService.class
+com\enviro\assessment\grad001\bonganimalaza\waste_sorting_api\models\WasteCategory.class
